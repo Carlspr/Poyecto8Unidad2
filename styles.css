@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Courgette', cursive;
+}
+
+body {
+  padding: 20px 50px 0px 50px;
+  display: flex;
+  width: 100%;
+  background-color: rgb(225, 197, 253);
+}
+
+#menu {
+  display: flex;
+  gap: 15px;
+}
+
+#menu img {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  filter: invert(100%) sepia(7%) saturate(0%) hue-rotate(319deg)
+    brightness(112%) contrast(100%);
+}
+
+aside {
+  background-color: rgb(226, 176, 207);
+  padding: 10px;
+  height: 95vh;
+  width: fit-content;
+  width: 150px;
+  border-right: 3px solid violet;
+}
+
+aside button {
+  height: 40px;
+  width: 100%;
+  border-radius: 4px;
+  border: none;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: rgb(154, 150, 150);
+}
+
+#contenido {
+  margin-top: 9vh;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+main button {
+  margin-top: 10vh;
+}
+
+#contenido {
+  margin-top: 50px;
+  padding: 10px;
+}
+
+#Saludar button {
+  cursor: pointer;
+  border: none;
+  background-color: rgb(228, 88, 175);
+  font-size: 30px;
+  width: 200px;
+  padding: 10px 15px 10px 15px;
+  text-align: center;
+  border-radius: 12px;
+  color: white;
+}
+
+#Formulario {
+  cursor: pointer;
+}
+#Inicio {
+  cursor: pointer;
+}
+
+#Xicon {
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+  filter: invert(100%) sepia(7%) saturate(0%) hue-rotate(319deg)
+    brightness(112%) contrast(100%);
+}
+
+#Xicon2 {
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+
+
+#MensajeId {
+  display: flex;
+  width: 30vw;
+  background-color: rgb(228, 88, 175);
+  color: white;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+#formContainer{
+  display: grid;
+  grid-template-columns: repeat(2,minmax(6vw,10vw));
+  grid-template-rows: repeat(3,minmax(3vh,5vh));
+  gap: 30px;
+  border: 3px solid rgb(182, 181, 181);
+  padding: 15px;
+  background-color: aliceblue;
+}
+
+#formContainer input:nth-child(3){
+  grid-row: 2/3;
+  grid-column: 1/3;
+}
+
+#formContainer button{
+  grid-row: 2/3;
+  grid-column: 2/3;
+  background-color:rgb(228, 88, 175) ;
+  height: 100%;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#formContainer input{
+  border: 1px solid rgb(84, 83, 83);
+  border-radius: 4px;
+  padding: 5px;
+}
+
+#Grid{
+  display: none;
+  grid-template-columns: repeat(4,16vw);
+  grid-template-rows: auto;
+  border: 2px solid white;
+  margin-top: 15px;
+  padding: 10px;
+}
+
+#Grid h3{
+  text-decoration: underline;
+  justify-self: center;
+}
+
+.GridItem{
+  justify-self: center;
+}
